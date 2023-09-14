@@ -1,0 +1,14 @@
+https://www.tensorflow.org/install/source_windows
+git clone https://github.com/tensorflow/models {paths['APIMODEL_PATH']}
+url="https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-win64.zip"
+wget.download(url)
+move protoc-3.15.6-win64.zip {paths['PROTOC_PATH']}
+cd {paths['PROTOC_PATH']} && tar -xf protoc-3.15.6-win64.zip
+os.environ['PATH'] += os.pathsep + os.path.abspath(os.path.join(paths['PROTOC_PATH'], 'bin'))
+cd Tensorflow/models/research && protoc object_detection/protos/*.proto --python_out=. && copy object_detection\\packages\\tf2\\setup.py setup.py && python setup.py build && python setup.py install
+cd Tensorflow/models/research/slim && pip install -e .
+VERIFICATION_SCRIPT = os.path.join(paths['APIMODEL_PATH'], 'research', 'object_detection', 'builders', 'model_builder_tf2_test.py')
+python {VERIFICATION_SCRIPT}
+wget.download(PRETRAINED_MODEL_URL)
+!move {PRETRAINED_MODEL_NAME+'.tar.gz'} {paths['PRETRAINED_MODEL_PATH']}
+!cd {paths['PRETRAINED_MODEL_PATH']} && tar -zxvf {PRETRAINED_MODEL_NAME+'.tar.gz'}

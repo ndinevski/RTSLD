@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collected_images</folder>
+	<filename>help.129.JPEG</filename>
+	<path>C:\Users\ndine\Desktop\FINKI\RealTimeSignLanguageDetection\Tensorflow\workspace\images\collected_images\help.129.JPEG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1536</width>
+		<height>2048</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Help</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>579</xmin>
+			<ymin>1155</ymin>
+			<xmax>1224</xmax>
+			<ymax>1859</ymax>
+		</bndbox>
+	</object>
+</annotation>

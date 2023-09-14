@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collected_images</folder>
+	<filename>no.071cb854-0abc-11ee-8c98-92ffa1dbb479.jpg</filename>
+	<path>C:\Users\ndine\Desktop\FINKI\RealTimeSignLanguageDetection\Tensorflow\workspace\images\collected_images\no.071cb854-0abc-11ee-8c98-92ffa1dbb479.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>No</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>445</xmin>
+			<ymin>309</ymin>
+			<xmax>562</xmax>
+			<ymax>459</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collected_images</folder>
+	<filename>yes.7c9e954e-0abb-11ee-9142-92ffa1dbb479.jpg</filename>
+	<path>C:\Users\ndine\Desktop\FINKI\RealTimeSignLanguageDetection\Tensorflow\workspace\images\collected_images\yes.7c9e954e-0abb-11ee-9142-92ffa1dbb479.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Yes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>221</xmin>
+			<ymin>426</ymin>
+			<xmax>432</xmax>
+			<ymax>604</ymax>
+		</bndbox>
+	</object>
+</annotation>
