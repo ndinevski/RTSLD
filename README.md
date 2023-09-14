@@ -18,11 +18,11 @@ Scripts and Description:
 - text files - include all instructions and commands to train model, evaluate model, and create the TF Records
 
 Results:
-![image](https://github.com/ndinevski/Real_Time_Sign_Language_Detection/assets/61565298/7e295ccb-136d-472d-96f7-0e1a411b61e1)
+![2023-09-14 16_38_03-Window](https://github.com/ndinevski/RTSLD/assets/61565298/f2648a60-6581-49af-9dba-e8a32437032f)
+
 
 Labelling images:
-![image](https://github.com/ndinevski/Real_Time_Sign_Language_Detection/assets/61565298/65473076-4d65-45a4-b52d-6e0f04b0adb3)
-![image](https://github.com/ndinevski/Real_Time_Sign_Language_Detection/assets/61565298/58f42aa2-f94a-4f53-8487-346f9e90e618)
+![2023-09-14 16_38_29-Window](https://github.com/ndinevski/RTSLD/assets/61565298/bffeaeca-54a5-4681-84d1-67ee79369340)
 
 Developed by:
 
