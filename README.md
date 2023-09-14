@@ -18,10 +18,12 @@ Scripts and Description:
 - text files - include all instructions and commands to train model, evaluate model, and create the TF Records
 
 Results:
+
 ![2023-09-14 16_38_03-Window](https://github.com/ndinevski/RTSLD/assets/61565298/f2648a60-6581-49af-9dba-e8a32437032f)
 
 
 Labelling images:
+
 ![2023-09-14 16_38_29-Window](https://github.com/ndinevski/RTSLD/assets/61565298/bffeaeca-54a5-4681-84d1-67ee79369340)
 
 Developed by:
